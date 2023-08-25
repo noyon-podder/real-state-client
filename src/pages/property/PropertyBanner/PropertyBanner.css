@@ -1,0 +1,11 @@
+.property-banner {
+  background-image: linear-gradient(#063053, rgba(0, 0, 0, 0.3)),
+    url(../../../assets/property-banner.jpg);
+  /* background-image: url(../Image/bg.jpg); */
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  padding: 40px 0;
+}

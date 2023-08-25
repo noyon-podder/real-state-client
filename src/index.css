@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  transition: all 0.6s ease;
+}
+a:hover {
+  color: #0b2c91;
+}
