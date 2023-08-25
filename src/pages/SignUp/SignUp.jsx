@@ -1,16 +1,28 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import { useForm } from "react-hook-form";
+import { useContext } from "react";
+import { AuthContext } from "../../context/AuthProvider";
 
 const SignUp = () => {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm();
 
+  const { userCreate } = useContext(AuthContext);
   const onSubmit = (data) => {
-    console.log(data);
+    userCreate(data.email, data.password)
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+        reset();
+      })
+      .catch((error) => {
+        console.log(error.message);
+      });
   };
 
   return (
@@ -52,15 +64,15 @@ const SignUp = () => {
               <input
                 type="email"
                 {...register("email", { required: true })}
-                className="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11    focus:border-blue-400  focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                className="block w-full py-3 text-gray-700  bg-white border rounded-lg px-11    focus:border-blue-400  focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
                 placeholder="Email address"
               />
-              {errors.email && (
-                <span className="text-red-600 my-2 text-base ">
-                  Email is required
-                </span>
-              )}
             </div>
+            {errors.email && (
+              <span className="text-red-600 my-2 text-base ">
+                Email is required
+              </span>
+            )}
             {/* //TODO: image field is required when the project is completed  */}
             <label
               htmlFor="dropzone-file"
@@ -86,7 +98,7 @@ const SignUp = () => {
               <input id="dropzone-file" type="file" className="hidden" />
             </label>
 
-            <div className="relative flex items-center mt-4">
+            <div className="relative flex items-center mt-6">
               <span className="absolute">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -110,14 +122,14 @@ const SignUp = () => {
                 className="block w-full px-10 py-3 text-gray-700 bg-white border rounded-lg    focus:border-blue-400  focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
                 placeholder="Password"
               />
-              {errors.password && (
-                <span className="text-red-600 my-2 text-base ">
-                  Password is required
-                </span>
-              )}
             </div>
+            {errors.password && (
+              <span className="text-red-600 my-2 text-base ">
+                Password is required
+              </span>
+            )}
 
-            <div className="relative flex items-center mt-4">
+            <div className="relative flex items-center  mt-6">
               <span className="absolute">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -138,15 +150,15 @@ const SignUp = () => {
               <input
                 type="password"
                 {...register("confirmPassword", { required: true })}
-                className="block w-full px-10 py-3 text-gray-700 bg-white border rounded-lg    focus:border-blue-400  focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                className="block w-full px-10 py-3  text-gray-700 bg-white border rounded-lg    focus:border-blue-400  focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
                 placeholder="Confirm Password"
               />
-              {errors.confirmPassword && (
-                <span className="text-red-600 my-2 text-base ">
-                  Confirm password is required
-                </span>
-              )}
             </div>
+            {errors.confirmPassword && (
+              <span className="text-red-600  text-base ">
+                Confirm password is required
+              </span>
+            )}
 
             <div className="mt-6">
               <input
