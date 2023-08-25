@@ -11,6 +11,7 @@ const Navbar = () => {
     { name: "Properties", link: "/property" },
     { name: "Contact Us", link: "/" },
     { name: "Blog", link: "/" },
+    { name: "Login", link: "/signIn" },
   ];
   const [open, setOpen] = useState(false);
 
@@ -40,7 +41,7 @@ const Navbar = () => {
                   isPending
                     ? "pending"
                     : isActive
-                    ? "text-[#4A60A1] capitalize "
+                    ? "text-[#4A60A1] capitalize hover:text-gray-400"
                     : "text-gray-800 hover:text-gray-400 capitalize duration-500 "
                 }
                 to={link.link}
