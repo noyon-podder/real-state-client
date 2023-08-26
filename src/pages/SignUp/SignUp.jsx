@@ -3,6 +3,7 @@ import logo from "../../assets/logo.png";
 import { useForm } from "react-hook-form";
 import { useContext } from "react";
 import { AuthContext } from "../../context/AuthProvider";
+import { toast } from "react-hot-toast";
 
 const SignUp = () => {
   const {
@@ -19,6 +20,7 @@ const SignUp = () => {
         const user = result.user;
         console.log(user);
         reset();
+        toast.success("user create successfully");
       })
       .catch((error) => {
         console.log(error.message);
@@ -42,6 +44,37 @@ const SignUp = () => {
                 Create an account
               </h2>
             </div>
+
+            <div className="relative flex items-center mt-8">
+              <span className="absolute">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-6 h-6 mx-3 text-gray-300 dark:text-gray-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                  />
+                </svg>
+              </span>
+
+              <input
+                type="text"
+                {...register("name", { required: true })}
+                className="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11   focus:border-blue-400 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                placeholder="Full Name"
+              />
+            </div>
+            {errors.name && (
+              <span className="text-red-600 my-2 text-base ">
+                Name is required
+              </span>
+            )}
 
             <div className="relative flex items-center mt-6">
               <span className="absolute">
