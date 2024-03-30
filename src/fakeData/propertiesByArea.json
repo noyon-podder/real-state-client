@@ -1,0 +1,893 @@
+{
+  "property": [
+    {
+      "id": 1,
+      "title": "Cozy Downtown Apartment",
+      "type": "Apartment",
+      "properties": [
+        {
+          "id": 100,
+          "title": "Cozy Downtown Apartment",
+          "category": "sale",
+
+          "type": "Apartment",
+          "location": {
+            "address": "123 Main St",
+            "city": "Cityville",
+            "state": "Stateville",
+            "zipcode": "12345"
+          },
+          "price": 1500,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 1000,
+            "units": "sq.ft"
+          },
+          "description": "A charming apartment located in the heart of downtown Cityville. Close to restaurants, shops, and public transportation.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 101,
+          "title": "Spacious Suburban House",
+          "category": "sale",
+          "type": "House",
+          "location": {
+            "address": "456 Oak St",
+            "city": "Suburbia",
+            "state": "Stateville",
+            "zipcode": "54321"
+          },
+          "price": 2500,
+          "bedrooms": 4,
+          "bathrooms": 3,
+          "size": {
+            "sq_ft": 2500,
+            "units": "sq.ft"
+          },
+          "description": "A beautiful suburban house with ample space for a family. Features a large backyard and modern amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 102,
+          "title": "Luxury Condo with Ocean View",
+          "category": "sale",
+          "type": "Condo",
+          "location": {
+            "address": "789 Beach Blvd",
+            "city": "Seaside",
+            "state": "Stateville",
+            "zipcode": "67890"
+          },
+          "price": 3500,
+          "bedrooms": 3,
+          "bathrooms": 2.5,
+          "size": {
+            "sq_ft": 1800,
+            "units": "sq.ft"
+          },
+          "description": "Experience luxury living with breathtaking ocean views from this elegant condo. Close to beaches and resort amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 103,
+          "title": "Rustic Mountain Cabin",
+          "category": "sale",
+          "type": "Cabin",
+          "location": {
+            "address": "101 Pine Rd",
+            "city": "Mountainville",
+            "state": "Stateville",
+            "zipcode": "13579"
+          },
+          "price": 1200,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 800,
+            "units": "sq.ft"
+          },
+          "description": "Escape to nature in this cozy mountain cabin. Perfect for a romantic getaway or solo retreat.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 104,
+          "title": "Cozy Downtown Apartment",
+          "category": "sale",
+          "type": "Apartment",
+          "location": {
+            "address": "123 Main St",
+            "city": "Cityville",
+            "state": "Stateville",
+            "zipcode": "12345"
+          },
+          "price": 1500,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 1000,
+            "units": "sq.ft"
+          },
+          "description": "A charming apartment located in the heart of downtown Cityville. Close to restaurants, shops, and public transportation.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 105,
+          "title": "Spacious Suburban House",
+          "category": "sale",
+          "type": "House",
+          "location": {
+            "address": "456 Oak St",
+            "city": "Suburbia",
+            "state": "Stateville",
+            "zipcode": "54321"
+          },
+          "price": 2500,
+          "bedrooms": 4,
+          "bathrooms": 3,
+          "size": {
+            "sq_ft": 2500,
+            "units": "sq.ft"
+          },
+          "description": "A beautiful suburban house with ample space for a family. Features a large backyard and modern amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 106,
+          "title": "Luxury Condo with Ocean View",
+          "category": "sale",
+          "type": "Condo",
+          "location": {
+            "address": "789 Beach Blvd",
+            "city": "Seaside",
+            "state": "Stateville",
+            "zipcode": "67890"
+          },
+          "price": 3500,
+          "bedrooms": 3,
+          "bathrooms": 2.5,
+          "size": {
+            "sq_ft": 1800,
+            "units": "sq.ft"
+          },
+          "description": "Experience luxury living with breathtaking ocean views from this elegant condo. Close to beaches and resort amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 107,
+          "title": "Rustic Mountain Cabin",
+          "category": "sale",
+          "type": "Cabin",
+          "location": {
+            "address": "101 Pine Rd",
+            "city": "Mountainville",
+            "state": "Stateville",
+            "zipcode": "13579"
+          },
+          "price": 1200,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 800,
+            "units": "sq.ft"
+          },
+          "description": "Escape to nature in this cozy mountain cabin. Perfect for a romantic getaway or solo retreat.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        }
+      ],
+
+      "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Cozy Downtown Apartment",
+      "type": "Townhome",
+      "properties": [
+        {
+          "id": 100,
+          "title": "Cozy Downtown Apartment",
+          "category": "sale",
+
+          "location": {
+            "address": "123 Main St",
+            "city": "Cityville",
+            "state": "Stateville",
+            "zipcode": "12345"
+          },
+          "price": 1500,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 1000,
+            "units": "sq.ft"
+          },
+          "description": "A charming apartment located in the heart of downtown Cityville. Close to restaurants, shops, and public transportation.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 101,
+          "title": "Spacious Suburban House",
+          "category": "sale",
+          "type": "House",
+          "location": {
+            "address": "456 Oak St",
+            "city": "Suburbia",
+            "state": "Stateville",
+            "zipcode": "54321"
+          },
+          "price": 2500,
+          "bedrooms": 4,
+          "bathrooms": 3,
+          "size": {
+            "sq_ft": 2500,
+            "units": "sq.ft"
+          },
+          "description": "A beautiful suburban house with ample space for a family. Features a large backyard and modern amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 102,
+          "title": "Luxury Condo with Ocean View",
+          "category": "sale",
+          "type": "Condo",
+          "location": {
+            "address": "789 Beach Blvd",
+            "city": "Seaside",
+            "state": "Stateville",
+            "zipcode": "67890"
+          },
+          "price": 3500,
+          "bedrooms": 3,
+          "bathrooms": 2.5,
+          "size": {
+            "sq_ft": 1800,
+            "units": "sq.ft"
+          },
+          "description": "Experience luxury living with breathtaking ocean views from this elegant condo. Close to beaches and resort amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 103,
+          "title": "Rustic Mountain Cabin",
+          "category": "sale",
+          "type": "Cabin",
+          "location": {
+            "address": "101 Pine Rd",
+            "city": "Mountainville",
+            "state": "Stateville",
+            "zipcode": "13579"
+          },
+          "price": 1200,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 800,
+            "units": "sq.ft"
+          },
+          "description": "Escape to nature in this cozy mountain cabin. Perfect for a romantic getaway or solo retreat.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 104,
+          "title": "Cozy Downtown Apartment",
+          "category": "sale",
+          "type": "Apartment",
+          "location": {
+            "address": "123 Main St",
+            "city": "Cityville",
+            "state": "Stateville",
+            "zipcode": "12345"
+          },
+          "price": 1500,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 1000,
+            "units": "sq.ft"
+          },
+          "description": "A charming apartment located in the heart of downtown Cityville. Close to restaurants, shops, and public transportation.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 105,
+          "title": "Spacious Suburban House",
+          "category": "sale",
+          "type": "House",
+          "location": {
+            "address": "456 Oak St",
+            "city": "Suburbia",
+            "state": "Stateville",
+            "zipcode": "54321"
+          },
+          "price": 2500,
+          "bedrooms": 4,
+          "bathrooms": 3,
+          "size": {
+            "sq_ft": 2500,
+            "units": "sq.ft"
+          },
+          "description": "A beautiful suburban house with ample space for a family. Features a large backyard and modern amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 106,
+          "title": "Luxury Condo with Ocean View",
+          "category": "sale",
+          "type": "Condo",
+          "location": {
+            "address": "789 Beach Blvd",
+            "city": "Seaside",
+            "state": "Stateville",
+            "zipcode": "67890"
+          },
+          "price": 3500,
+          "bedrooms": 3,
+          "bathrooms": 2.5,
+          "size": {
+            "sq_ft": 1800,
+            "units": "sq.ft"
+          },
+          "description": "Experience luxury living with breathtaking ocean views from this elegant condo. Close to beaches and resort amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 107,
+          "title": "Rustic Mountain Cabin",
+          "category": "sale",
+          "type": "Cabin",
+          "location": {
+            "address": "101 Pine Rd",
+            "city": "Mountainville",
+            "state": "Stateville",
+            "zipcode": "13579"
+          },
+          "price": 1200,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 800,
+            "units": "sq.ft"
+          },
+          "description": "Escape to nature in this cozy mountain cabin. Perfect for a romantic getaway or solo retreat.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        }
+      ],
+
+      "image": "https://cdn.pixabay.com/photo/2017/09/08/04/07/home-2727620_640.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Noyon Villa",
+      "type": "Studio",
+      "properties": [
+        {
+          "id": 100,
+          "title": "Cozy Downtown Apartment",
+          "category": "sale",
+
+          "type": "Apartment",
+          "location": {
+            "address": "123 Main St",
+            "city": "Cityville",
+            "state": "Stateville",
+            "zipcode": "12345"
+          },
+          "price": 1500,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 1000,
+            "units": "sq.ft"
+          },
+          "description": "A charming apartment located in the heart of downtown Cityville. Close to restaurants, shops, and public transportation.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 101,
+          "title": "Spacious Suburban House",
+          "category": "sale",
+          "type": "House",
+          "location": {
+            "address": "456 Oak St",
+            "city": "Suburbia",
+            "state": "Stateville",
+            "zipcode": "54321"
+          },
+          "price": 2500,
+          "bedrooms": 4,
+          "bathrooms": 3,
+          "size": {
+            "sq_ft": 2500,
+            "units": "sq.ft"
+          },
+          "description": "A beautiful suburban house with ample space for a family. Features a large backyard and modern amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 102,
+          "title": "Luxury Condo with Ocean View",
+          "category": "sale",
+          "type": "Condo",
+          "location": {
+            "address": "789 Beach Blvd",
+            "city": "Seaside",
+            "state": "Stateville",
+            "zipcode": "67890"
+          },
+          "price": 3500,
+          "bedrooms": 3,
+          "bathrooms": 2.5,
+          "size": {
+            "sq_ft": 1800,
+            "units": "sq.ft"
+          },
+          "description": "Experience luxury living with breathtaking ocean views from this elegant condo. Close to beaches and resort amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 103,
+          "title": "Rustic Mountain Cabin",
+          "category": "sale",
+          "type": "Cabin",
+          "location": {
+            "address": "101 Pine Rd",
+            "city": "Mountainville",
+            "state": "Stateville",
+            "zipcode": "13579"
+          },
+          "price": 1200,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 800,
+            "units": "sq.ft"
+          },
+          "description": "Escape to nature in this cozy mountain cabin. Perfect for a romantic getaway or solo retreat.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 104,
+          "title": "Cozy Downtown Apartment",
+          "category": "sale",
+          "type": "Apartment",
+          "location": {
+            "address": "123 Main St",
+            "city": "Cityville",
+            "state": "Stateville",
+            "zipcode": "12345"
+          },
+          "price": 1500,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 1000,
+            "units": "sq.ft"
+          },
+          "description": "A charming apartment located in the heart of downtown Cityville. Close to restaurants, shops, and public transportation.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 105,
+          "title": "Spacious Suburban House",
+          "category": "sale",
+          "type": "House",
+          "location": {
+            "address": "456 Oak St",
+            "city": "Suburbia",
+            "state": "Stateville",
+            "zipcode": "54321"
+          },
+          "price": 2500,
+          "bedrooms": 4,
+          "bathrooms": 3,
+          "size": {
+            "sq_ft": 2500,
+            "units": "sq.ft"
+          },
+          "description": "A beautiful suburban house with ample space for a family. Features a large backyard and modern amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 106,
+          "title": "Luxury Condo with Ocean View",
+          "category": "sale",
+          "type": "Condo",
+          "location": {
+            "address": "789 Beach Blvd",
+            "city": "Seaside",
+            "state": "Stateville",
+            "zipcode": "67890"
+          },
+          "price": 3500,
+          "bedrooms": 3,
+          "bathrooms": 2.5,
+          "size": {
+            "sq_ft": 1800,
+            "units": "sq.ft"
+          },
+          "description": "Experience luxury living with breathtaking ocean views from this elegant condo. Close to beaches and resort amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 107,
+          "title": "Rustic Mountain Cabin",
+          "category": "sale",
+          "type": "Cabin",
+          "location": {
+            "address": "101 Pine Rd",
+            "city": "Mountainville",
+            "state": "Stateville",
+            "zipcode": "13579"
+          },
+          "price": 1200,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 800,
+            "units": "sq.ft"
+          },
+          "description": "Escape to nature in this cozy mountain cabin. Perfect for a romantic getaway or solo retreat.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        }
+      ],
+
+      "image": "https://cdn.pixabay.com/photo/2018/03/21/22/39/architecture-3248571_640.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Sopno Villa",
+      "type": "Houses",
+      "properties": [
+        {
+          "id": 100,
+          "title": "Cozy Downtown Apartment",
+          "category": "sale",
+
+          "type": "Apartment",
+          "location": {
+            "address": "123 Main St",
+            "city": "Cityville",
+            "state": "Stateville",
+            "zipcode": "12345"
+          },
+          "price": 1500,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 1000,
+            "units": "sq.ft"
+          },
+          "description": "A charming apartment located in the heart of downtown Cityville. Close to restaurants, shops, and public transportation.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 101,
+          "title": "Spacious Suburban House",
+          "category": "sale",
+          "type": "House",
+          "location": {
+            "address": "456 Oak St",
+            "city": "Suburbia",
+            "state": "Stateville",
+            "zipcode": "54321"
+          },
+          "price": 2500,
+          "bedrooms": 4,
+          "bathrooms": 3,
+          "size": {
+            "sq_ft": 2500,
+            "units": "sq.ft"
+          },
+          "description": "A beautiful suburban house with ample space for a family. Features a large backyard and modern amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 102,
+          "title": "Luxury Condo with Ocean View",
+          "category": "sale",
+          "type": "Condo",
+          "location": {
+            "address": "789 Beach Blvd",
+            "city": "Seaside",
+            "state": "Stateville",
+            "zipcode": "67890"
+          },
+          "price": 3500,
+          "bedrooms": 3,
+          "bathrooms": 2.5,
+          "size": {
+            "sq_ft": 1800,
+            "units": "sq.ft"
+          },
+          "description": "Experience luxury living with breathtaking ocean views from this elegant condo. Close to beaches and resort amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 103,
+          "title": "Rustic Mountain Cabin",
+          "category": "sale",
+          "type": "Cabin",
+          "location": {
+            "address": "101 Pine Rd",
+            "city": "Mountainville",
+            "state": "Stateville",
+            "zipcode": "13579"
+          },
+          "price": 1200,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 800,
+            "units": "sq.ft"
+          },
+          "description": "Escape to nature in this cozy mountain cabin. Perfect for a romantic getaway or solo retreat.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 104,
+          "title": "Cozy Downtown Apartment",
+          "category": "sale",
+          "type": "Apartment",
+          "location": {
+            "address": "123 Main St",
+            "city": "Cityville",
+            "state": "Stateville",
+            "zipcode": "12345"
+          },
+          "price": 1500,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 1000,
+            "units": "sq.ft"
+          },
+          "description": "A charming apartment located in the heart of downtown Cityville. Close to restaurants, shops, and public transportation.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 105,
+          "title": "Spacious Suburban House",
+          "category": "sale",
+          "type": "House",
+          "location": {
+            "address": "456 Oak St",
+            "city": "Suburbia",
+            "state": "Stateville",
+            "zipcode": "54321"
+          },
+          "price": 2500,
+          "bedrooms": 4,
+          "bathrooms": 3,
+          "size": {
+            "sq_ft": 2500,
+            "units": "sq.ft"
+          },
+          "description": "A beautiful suburban house with ample space for a family. Features a large backyard and modern amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 106,
+          "title": "Luxury Condo with Ocean View",
+          "category": "sale",
+          "type": "Condo",
+          "location": {
+            "address": "789 Beach Blvd",
+            "city": "Seaside",
+            "state": "Stateville",
+            "zipcode": "67890"
+          },
+          "price": 3500,
+          "bedrooms": 3,
+          "bathrooms": 2.5,
+          "size": {
+            "sq_ft": 1800,
+            "units": "sq.ft"
+          },
+          "description": "Experience luxury living with breathtaking ocean views from this elegant condo. Close to beaches and resort amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 107,
+          "title": "Rustic Mountain Cabin",
+          "category": "sale",
+          "type": "Cabin",
+          "location": {
+            "address": "101 Pine Rd",
+            "city": "Mountainville",
+            "state": "Stateville",
+            "zipcode": "13579"
+          },
+          "price": 1200,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 800,
+            "units": "sq.ft"
+          },
+          "description": "Escape to nature in this cozy mountain cabin. Perfect for a romantic getaway or solo retreat.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        }
+      ],
+
+      "image": "https://cdn.pixabay.com/photo/2018/07/14/15/27/cafe-3537801_1280.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Nobosree Banglo",
+      "type": "Offices",
+      "properties": [
+        {
+          "id": 100,
+          "title": "Cozy Downtown Apartment",
+          "category": "sale",
+
+          "type": "Apartment",
+          "location": {
+            "address": "123 Main St",
+            "city": "Cityville",
+            "state": "Stateville",
+            "zipcode": "12345"
+          },
+          "price": 1500,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 1000,
+            "units": "sq.ft"
+          },
+          "description": "A charming apartment located in the heart of downtown Cityville. Close to restaurants, shops, and public transportation.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 101,
+          "title": "Spacious Suburban House",
+          "category": "sale",
+          "type": "House",
+          "location": {
+            "address": "456 Oak St",
+            "city": "Suburbia",
+            "state": "Stateville",
+            "zipcode": "54321"
+          },
+          "price": 2500,
+          "bedrooms": 4,
+          "bathrooms": 3,
+          "size": {
+            "sq_ft": 2500,
+            "units": "sq.ft"
+          },
+          "description": "A beautiful suburban house with ample space for a family. Features a large backyard and modern amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 102,
+          "title": "Luxury Condo with Ocean View",
+          "category": "sale",
+          "type": "Condo",
+          "location": {
+            "address": "789 Beach Blvd",
+            "city": "Seaside",
+            "state": "Stateville",
+            "zipcode": "67890"
+          },
+          "price": 3500,
+          "bedrooms": 3,
+          "bathrooms": 2.5,
+          "size": {
+            "sq_ft": 1800,
+            "units": "sq.ft"
+          },
+          "description": "Experience luxury living with breathtaking ocean views from this elegant condo. Close to beaches and resort amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 103,
+          "title": "Rustic Mountain Cabin",
+          "category": "sale",
+          "type": "Cabin",
+          "location": {
+            "address": "101 Pine Rd",
+            "city": "Mountainville",
+            "state": "Stateville",
+            "zipcode": "13579"
+          },
+          "price": 1200,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 800,
+            "units": "sq.ft"
+          },
+          "description": "Escape to nature in this cozy mountain cabin. Perfect for a romantic getaway or solo retreat.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 104,
+          "title": "Cozy Downtown Apartment",
+          "category": "sale",
+          "type": "Apartment",
+          "location": {
+            "address": "123 Main St",
+            "city": "Cityville",
+            "state": "Stateville",
+            "zipcode": "12345"
+          },
+          "price": 1500,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 1000,
+            "units": "sq.ft"
+          },
+          "description": "A charming apartment located in the heart of downtown Cityville. Close to restaurants, shops, and public transportation.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 105,
+          "title": "Spacious Suburban House",
+          "category": "sale",
+          "type": "House",
+          "location": {
+            "address": "456 Oak St",
+            "city": "Suburbia",
+            "state": "Stateville",
+            "zipcode": "54321"
+          },
+          "price": 2500,
+          "bedrooms": 4,
+          "bathrooms": 3,
+          "size": {
+            "sq_ft": 2500,
+            "units": "sq.ft"
+          },
+          "description": "A beautiful suburban house with ample space for a family. Features a large backyard and modern amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 106,
+          "title": "Luxury Condo with Ocean View",
+          "category": "sale",
+          "type": "Condo",
+          "location": {
+            "address": "789 Beach Blvd",
+            "city": "Seaside",
+            "state": "Stateville",
+            "zipcode": "67890"
+          },
+          "price": 3500,
+          "bedrooms": 3,
+          "bathrooms": 2.5,
+          "size": {
+            "sq_ft": 1800,
+            "units": "sq.ft"
+          },
+          "description": "Experience luxury living with breathtaking ocean views from this elegant condo. Close to beaches and resort amenities.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        },
+        {
+          "id": 107,
+          "title": "Rustic Mountain Cabin",
+          "category": "sale",
+          "type": "Cabin",
+          "location": {
+            "address": "101 Pine Rd",
+            "city": "Mountainville",
+            "state": "Stateville",
+            "zipcode": "13579"
+          },
+          "price": 1200,
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "size": {
+            "sq_ft": 800,
+            "units": "sq.ft"
+          },
+          "description": "Escape to nature in this cozy mountain cabin. Perfect for a romantic getaway or solo retreat.",
+          "image": "https://cdn.pixabay.com/photo/2015/08/25/22/29/house-907778_640.jpg"
+        }
+      ],
+
+      "image": "https://cdn.pixabay.com/photo/2016/09/19/22/46/lake-1681485_640.jpg"
+    }
+  ]
+}

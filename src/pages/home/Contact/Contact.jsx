@@ -3,13 +3,13 @@ import SectionTitle from "../../../components/SetionTitle/SectionTitle";
 
 const Contact = () => {
   return (
-    <div className="bg-blue-100 py-10 px-3">
+    <div className="bg-white py-10 px-3">
       <SectionTitle
         heading="Contact Us"
         subHeading="Completely formulate premium infrastructures and best-of-breed paradigms. Efficiently empower competitive quality vectors."
       />
 
-      <div className="bg-base-100 py-5 px-5 w-full mt-5 rounded lg:w-2/4 mx-auto">
+      <div className=" border border-neutral-100 py-5 px-5 w-full mt-10 bg-slate-50 rounded lg:w-2/4 mx-auto">
         <div>
           <h2 className="text-gray-700 font-bold text-xl mb-2">Enquiry form</h2>
           <p className="text-gray-400 text-base ">

@@ -1,0 +1,67 @@
+.overlay::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: linear-gradient(#063053c9, rgba(0, 0, 0, 0.3));
+  border-radius: 8px;
+  z-index: 1;
+}
+.card-image {
+  overflow: hidden;
+}
+.card-image:hover img {
+  transform: scale(1.3);
+}
+
+.css-13cymwt-control {
+  border-color: #eaeaea !important;
+}
+
+.css-t3ipsp-control {
+  border-color: #4a60a134 !important;
+
+  box-shadow: 0 0 0 1px #4a60a1a9 !important;
+}
+
+.text_span {
+  /* background: -webkit-linear-gradient(#23bfb8, #85ea80); */
+  background: -webkit-linear-gradient(#063053, #062153);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 6px transparent;
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 46px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.text_heading {
+  color: #26303b;
+
+  -webkit-text-stroke: 6px transparent;
+  font-family: Poppins, sans-serif;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 46px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+  .text_span {
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 5px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .text_span {
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: 5px;
+  }
+}
