@@ -10,6 +10,6 @@ import AuthProvider from "./context/AuthProvider";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <AuthProvider>
     <RouterProvider router={router}></RouterProvider>
-    <Toaster position="top-center" />
+    <Toaster position="top-left" />
   </AuthProvider>
 );

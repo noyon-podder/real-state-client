@@ -78,7 +78,7 @@ const PropertyItems = () => {
             </div>
           )}
         </div>
-        <div className="xl:col-span-2 lg:col-span-3 bg-red-600">hellow</div>
+        <div className="xl:col-span-2 lg:col-span-">Sidebar</div>
       </div>
 
       <div className={currentData?.length !== 0 ? "block" : "hidden"}>

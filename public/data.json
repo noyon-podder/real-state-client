@@ -1,322 +1,276 @@
- [
-      {
-        "title": "Luxury Villa with Ocean View",
-        "description": "A stunning 5-bedroom villa with breathtaking ocean views. Ideal for those seeking luxury and tranquility.",
-        "location": "1234 Ocean Drive, Paradise Cove",
-        "price": 2500000,
-        "bedrooms": 5,
-        "bathrooms": 6,
-        "area_sqft": 6000,
-        "type": "Villa",
-        "image": "https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg",
-        "features": [
-          "Ocean View",
-          "Swimming Pool",
-          "Garden",
-          "Security System",
-          "Garage"
-        ],
-        "category": "sell"
-      },
-      {
-        "title": "Modern City Apartment",
-        "description": "A chic 2-bedroom apartment in the heart of the city. Perfect for urban living with all amenities nearby.",
-        "location": "789 Urban Street, Downtown",
-        "price": 450000,
-        "bedrooms": 2,
-        "bathrooms": 2,
-        "area_sqft": 1200,
-        "type": "Apartment",
-        "image": "https://img.freepik.com/free-photo/design-house-modern-villa-with-open-plan-living-private-bedroom-wing-large-terrace-with-privacy_1258-169741.jpg",
-        "features": [
-          "City View",
-          "Fitness Center",
-          "Balcony",
-          "Concierge",
-          "Parking"
-        ],
-        "category": "sell"
-      },
-      {
-        "title": "Cozy Suburban Home",
-        "description": "A charming 3-bedroom suburban home in a peaceful neighborhood. Great for families and outdoor enthusiasts.",
-        "location": "567 Green Meadows, Suburbia",
-        "price": 320000,
-        "bedrooms": 3,
-        "bathrooms": 2,
-        "area_sqft": 1800,
-        "type": "House",
-        "image": "https://img.freepik.com/free-photo/3d-electric-car-building_23-2148972401.jpg",
-        "features": [
-          "Spacious Yard",
-          "Fireplace",
-          "Home Office",
-          "Walk-in Closet"
-        ],
-        "category": "sell"
-      },
-      {
-        "title": "Riverside Cottage Retreat",
-        "description": "A cozy 2-bedroom cottage by the river. Perfect for nature lovers and weekend getaways.",
-        "location": "456 Riverside Lane, Serenity Valley",
-        "price": 180000,
-        "bedrooms": 2,
-        "bathrooms": 1,
-        "area_sqft": 1200,
-        "type": "Cottage",
-        "image": "https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150749.jpg",
-        "features": [
-          "Riverfront",
-          "Deck",
-          "Fire Pit",
-          "Fishing Access"
-        ],
-        "category": "sell"
-      },
-      {
-        "title": "Historic Townhouse",
-        "description": "A beautifully restored 4-bedroom townhouse in a historic district. Rich in architectural detail.",
-        "location": "789 Heritage Street, Historic District",
-        "price": 750000,
-        "bedrooms": 4,
-        "bathrooms": 3,
-        "area_sqft": 2800,
-        "type": "Townhouse",
-        "image": "https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150765.jpg",
-        "features": [
-          "Historic Charm",
-          "Courtyard",
-          "Original Details",
-          "Modern Kitchen"
-        ],
-        "category": "sell"
-      },
-      {
-        "title": "Mountain View Chalet",
-        "description": "A 3-bedroom chalet with stunning mountain views. Perfect for a cozy alpine retreat.",
-        "location": "101 Alpine Road, Mountain Haven",
-        "price": 550000,
-        "bedrooms": 3,
-        "bathrooms": 2,
-        "area_sqft": 2200,
-        "type": "Chalet",
-        "image": "https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150765.jpg",
-        "features": [
-          "Mountain View",
-          "Ski Access",
-          "Hot Tub",
-          "Fireplace"
-        ],
-        "category": "sell"
-      },
-      {
-        "title": "Beachfront Condo",
-        "description": "A 2-bedroom beachfront condo with stunning views of the sea. Perfect for coastal living.",
-        "location": "987 Beachfront Avenue, Coastal Paradise",
-        "price": 680000,
-        "bedrooms": 2,
-        "bathrooms": 2,
-        "area_sqft": 1500,
-        "type": "Condo",
-        "image": "https://img.freepik.com/free-photo/luxury-interior-modern-living-room-with-white-sofa-coffee-table-frame-wall_90220-1697.jpg",
-        "features": [
-          "Beachfront",
-          "Swimming Pool",
-          "Balcony",
-          "Fitness Center"
-        ],
-        "category": "sell"
-      },
-      {
-        "title": "Golf Course Estate",
-        "description": "A 6-bedroom estate overlooking a prestigious golf course. Luxury living at its finest.",
-        "location": "123 Golf Fairway, Green Estates",
-        "price": 3500000,
-        "bedrooms": 6,
-        "bathrooms": 7,
-        "area_sqft": 8000,
-        "type": "Estate",
-        "image": "https://img.freepik.com/free-photo/house-with-garage-house-left-side_1340-32088.jpg",
-        "features": [
-          "Golf Course View",
-          "Infinity Pool",
-          "Home Theater",
-          "Wine Cellar"
-        ],
-        "category": "sell"
-      },
-      {
-        "title": "Lakefront Retreat",
-        "description": "A charming 2-bedroom cottage on the shores of a serene lake. Perfect for fishing and relaxation.",
-        "location": "321 Lakeside Drive, Tranquil Waters",
-        "price": 220000,
-        "bedrooms": 2,
-        "bathrooms": 1,
-        "area_sqft": 1000,
-        "type": "Cottage",
-        "image": "https://img.freepik.com/free-photo/road-city_1417-1426.jpg",
-        "features": [
-          "Lakefront",
-          "Dock",
-          "Fireplace",
-          "Canoe Included"
-        ],
-        "category": "sell"
-      },
-      {
-        "title": "Downtown Penthouse",
-        "description": "A luxurious 3-bedroom penthouse in the heart of the city. Offers stunning city views and top-notch amenities.",
-        "location": "456 Highrise Avenue, City Center",
-        "price": 1800000,
-        "bedrooms": 3,
-        "bathrooms": 4,
-        "area_sqft": 3000,
-        "type": "Penthouse",
-        "image": "https://img.freepik.com/free-photo/night-architecture-outdoors-dusk-building-exterior-tree-grass-illuminated-generative-ai_188544-7729.jpg",
-        "features": [
-          "City View",
-          "Private Terrace",
-          "Fitness Center",
-          "Concierge"
-        ],
-        "category": "sell"
-      },
-      {
-        "title": "Rural Farmhouse",
-        "description": "A 4-bedroom farmhouse on a picturesque rural property. Ideal for those seeking a quiet country life.",
-        "location": "789 Farm Lane, Countryside",
-        "price": 420000,
-        "bedrooms": 4,
-        "bathrooms": 3,
-        "area_sqft": 2500,
-        "type": "Farmhouse",
-        "image": "https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150751.jpg",
-        "features": [
-          "Country Charm",
-          "Wrap-around Porch",
-          "Barn",
-          "Acreage"
-        ],
-        "category": "sell"
-      },
-      {
-        "title": "Sunny Apartment with City View",
-        "description": "A bright 1-bedroom apartment with a beautiful view of the city. Perfect for urban professionals.",
-        "location": "123 Urban Lane, Downtown",
-        "price": 2000,
-        "bedrooms": 1,
-        "bathrooms": 1,
-        "area_sqft": 800,
-        "type": "Apartment",
-        "image": "https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150751.jpg",
-        "features": [
-          "City View",
-          "Balcony",
-          "Fitness Center",
-          "Parking"
-        ],
-        "category": "rent"
-      },
-      {
-        "title": "Family-Friendly Suburban Home",
-        "description": "A spacious 4-bedroom home in a family-friendly suburb. Great schools and parks nearby.",
-        "location": "456 Suburbia Drive, Family Haven",
-        "price": 3000,
-        "bedrooms": 4,
-        "bathrooms": 2,
-        "area_sqft": 2000,
-        "type": "House",
-        "image": "https://img.freepik.com/free-photo/gray-sofa-white-living-room-with-copy-space_43614-909.jpg",
-        "features": [
-          "Spacious Yard",
-          "Fireplace",
-          "Home Office",
-          "Garage"
-        ],
-        "category": "rent"
-      },
-      {
-        "title": "Downtown Loft with Industrial Charm",
-        "description": "A trendy loft with 2 bedrooms in the heart of the city. Features exposed brick and modern amenities.",
-        "location": "789 Loft Avenue, Arts District",
-        "price": 2800,
-        "bedrooms": 2,
-        "bathrooms": 2,
-        "area_sqft": 1500,
-        "type": "Loft",
-        "image": "https://img.freepik.com/free-photo/gray-sofa-white-living-room-with-copy-space_43614-909.jpg",
-        "features": [
-          "Industrial Style",
-          "Open Floor Plan",
-          "Roof Deck",
-          "Gym"
-        ],
-        "category": "rent"
-      },
-      {
-        "title": "Seaside Cottage for Vacation",
-        "description": "A charming 1-bedroom cottage by the sea. Perfect for a relaxing vacation getaway.",
-        "location": "123 Beach Lane, Coastal Retreat",
-        "price": 1500,
-        "bedrooms": 1,
-        "bathrooms": 1,
-        "area_sqft": 600,
-        "type": "Cottage",
-        "image": "https://img.freepik.com/free-photo/gray-sofa-white-living-room-with-copy-space_43614-909.jpg",
-        "features": [
-          "Beachfront",
-          "Patio",
-          "BBQ Grill",
-          "Ocean Views"
-        ],
-        "category": "rent"
-      },
-      {
-        "title": "Spacious Lot for Sale",
-        "description": "A large plot of land perfect for building your dream home. Located in a peaceful neighborhood.",
-        "location": "789 Green Acres, Tranquil Meadows",
-        "price": 150000,
-        "area_sqft": 10000,
-        "type": "Land",
-        "image": "https://img.freepik.com/free-photo/gray-sofa-white-living-room-with-copy-space_43614-909.jpg",
-        "features": [
-          "Large Lot",
-          "Peaceful Location"
-        ],
-        "category": "buy"
-      },
-      {
-        "title": "Commercial Space for Sale",
-        "description": "A prime commercial space in the bustling city center. Ideal for businesses and investors.",
-        "location": "456 Business Boulevard, Downtown",
-        "price": 800000,
-        "area_sqft": 5000,
-        "type": "Commercial",
-        "image": "https://img.freepik.com/free-photo/gray-sofa-white-living-room-with-copy-space_43614-909.jpg",
-        "features": [
-          "City Center Location",
-          "High Foot Traffic",
-          "Parking"
-        ],
-        "category": "buy"
-      },
-      {
-        "title": "Vacation Home for Marketing",
-        "description": "A beautiful vacation home available for short-term rentals. Great investment opportunity.",
-        "location": "123 Marketing Lane, Tourist Haven",
-        "price": 350000,
-        "bedrooms": 3,
-        "bathrooms": 2,
-        "area_sqft": 2000,
-        "type": "Vacation Home",
-        "image": "https://img.freepik.com/free-photo/gray-sofa-white-living-room-with-copy-space_43614-909.jpg",
-        "features": [
-          "Tourist-Friendly Location",
-          "Income Potential",
-          "Fully Furnished"
-        ],
-        "category": "marketing"
-      }
-    ]
-
-  
+[
+  {
+    "id": 1,
+    "title": "Luxury Villa with Ocean View",
+    "description": "A stunning 5-bedroom villa with breathtaking ocean views. Ideal for those seeking luxury and tranquility.",
+    "location": "1234 Ocean Drive, Paradise Cove",
+    "price": 2500000,
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "area_sqft": 6000,
+    "type": "Villa",
+    "image": "https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg",
+    "features": [
+      "Ocean View",
+      "Swimming Pool",
+      "Garden",
+      "Security System",
+      "Garage"
+    ],
+    "category": "sell"
+  },
+  {
+    "id": 2,
+    "title": "Modern City Apartment",
+    "description": "A chic 2-bedroom apartment in the heart of the city. Perfect for urban living with all amenities nearby.",
+    "location": "789 Urban Street, Downtown",
+    "price": 450000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_sqft": 1200,
+    "type": "Apartment",
+    "image": "https://img.freepik.com/free-photo/design-house-modern-villa-with-open-plan-living-private-bedroom-wing-large-terrace-with-privacy_1258-169741.jpg",
+    "features": [
+      "City View",
+      "Fitness Center",
+      "Balcony",
+      "Concierge",
+      "Parking"
+    ],
+    "category": "sell"
+  },
+  {
+    "id": 3,
+    "title": "Cozy Suburban Home",
+    "description": "A charming 3-bedroom suburban home in a peaceful neighborhood. Great for families and outdoor enthusiasts.",
+    "location": "567 Green Meadows, Suburbia",
+    "price": 320000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_sqft": 1800,
+    "type": "House",
+    "image": "https://img.freepik.com/free-photo/3d-electric-car-building_23-2148972401.jpg",
+    "features": ["Spacious Yard", "Fireplace", "Home Office", "Walk-in Closet"],
+    "category": "sell"
+  },
+  {
+    "id": 4,
+    "title": "Riverside Cottage Retreat",
+    "description": "A cozy 2-bedroom cottage by the river. Perfect for nature lovers and weekend getaways.",
+    "location": "456 Riverside Lane, Serenity Valley",
+    "price": 180000,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area_sqft": 1200,
+    "type": "Cottage",
+    "image": "https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150749.jpg",
+    "features": ["Riverfront", "Deck", "Fire Pit", "Fishing Access"],
+    "category": "sell"
+  },
+  {
+    "id": 5,
+    "title": "Historic Townhouse",
+    "description": "A beautifully restored 4-bedroom townhouse in a historic district. Rich in architectural detail.",
+    "location": "789 Heritage Street, Historic District",
+    "price": 750000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area_sqft": 2800,
+    "type": "Townhouse",
+    "image": "https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150765.jpg",
+    "features": [
+      "Historic Charm",
+      "Courtyard",
+      "Original Details",
+      "Modern Kitchen"
+    ],
+    "category": "sell"
+  },
+  {
+    "id": 6,
+    "title": "Mountain View Chalet",
+    "description": "A 3-bedroom chalet with stunning mountain views. Perfect for a cozy alpine retreat.",
+    "location": "101 Alpine Road, Mountain Haven",
+    "price": 550000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_sqft": 2200,
+    "type": "Chalet",
+    "image": "https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150765.jpg",
+    "features": ["Mountain View", "Ski Access", "Hot Tub", "Fireplace"],
+    "category": "sell"
+  },
+  {
+    "id": 7,
+    "title": "Beachfront Condo",
+    "description": "A 2-bedroom beachfront condo with stunning views of the sea. Perfect for coastal living.",
+    "location": "987 Beachfront Avenue, Coastal Paradise",
+    "price": 680000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_sqft": 1500,
+    "type": "Condo",
+    "image": "https://img.freepik.com/free-photo/luxury-interior-modern-living-room-with-white-sofa-coffee-table-frame-wall_90220-1697.jpg",
+    "features": ["Beachfront", "Swimming Pool", "Balcony", "Fitness Center"],
+    "category": "sell"
+  },
+  {
+    "id": 8,
+    "title": "Golf Course Estate",
+    "description": "A 6-bedroom estate overlooking a prestigious golf course. Luxury living at its finest.",
+    "location": "123 Golf Fairway, Green Estates",
+    "price": 3500000,
+    "bedrooms": 6,
+    "bathrooms": 7,
+    "area_sqft": 8000,
+    "type": "Estate",
+    "image": "https://img.freepik.com/free-photo/house-with-garage-house-left-side_1340-32088.jpg",
+    "features": [
+      "Golf Course View",
+      "Infinity Pool",
+      "Home Theater",
+      "Wine Cellar"
+    ],
+    "category": "sell"
+  },
+  {
+    "id": 9,
+    "title": "Lakefront Retreat",
+    "description": "A charming 2-bedroom cottage on the shores of a serene lake. Perfect for fishing and relaxation.",
+    "location": "321 Lakeside Drive, Tranquil Waters",
+    "price": 220000,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area_sqft": 1000,
+    "type": "Cottage",
+    "image": "https://img.freepik.com/free-photo/road-city_1417-1426.jpg",
+    "features": ["Lakefront", "Dock", "Fireplace", "Canoe Included"],
+    "category": "sell"
+  },
+  {
+    "id": 10,
+    "title": "Downtown Penthouse",
+    "description": "A luxurious 3-bedroom penthouse in the heart of the city. Offers stunning city views and top-notch amenities.",
+    "location": "456 Highrise Avenue, City Center",
+    "price": 1800000,
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "area_sqft": 3000,
+    "type": "Penthouse",
+    "image": "https://img.freepik.com/free-photo/night-architecture-outdoors-dusk-building-exterior-tree-grass-illuminated-generative-ai_188544-7729.jpg",
+    "features": ["City View", "Private Terrace", "Fitness Center", "Concierge"],
+    "category": "sell"
+  },
+  {
+    "id": 11,
+    "title": "Rural Farmhouse",
+    "description": "A 4-bedroom farmhouse on a picturesque rural property. Ideal for those seeking a quiet country life.",
+    "location": "789 Farm Lane, Countryside",
+    "price": 420000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area_sqft": 2500,
+    "type": "Farmhouse",
+    "image": "https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150751.jpg",
+    "features": ["Country Charm", "Wrap-around Porch", "Barn", "Acreage"],
+    "category": "sell"
+  },
+  {
+    "id": 12,
+    "title": "Sunny Apartment with City View",
+    "description": "A bright 1-bedroom apartment with a beautiful view of the city. Perfect for urban professionals.",
+    "location": "123 Urban Lane, Downtown",
+    "price": 2000,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_sqft": 800,
+    "type": "Apartment",
+    "image": "https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150751.jpg",
+    "features": ["City View", "Balcony", "Fitness Center", "Parking"],
+    "category": "rent"
+  },
+  {
+    "id": 13,
+    "title": "Family-Friendly Suburban Home",
+    "description": "A spacious 4-bedroom home in a family-friendly suburb. Great schools and parks nearby.",
+    "location": "456 Suburbia Drive, Family Haven",
+    "price": 3000,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "area_sqft": 2000,
+    "type": "House",
+    "image": "https://img.freepik.com/free-photo/gray-sofa-white-living-room-with-copy-space_43614-909.jpg",
+    "features": ["Spacious Yard", "Fireplace", "Home Office", "Garage"],
+    "category": "rent"
+  },
+  {
+    "id": 14,
+    "title": "Downtown Loft with Industrial Charm",
+    "description": "A trendy loft with 2 bedrooms in the heart of the city. Features exposed brick and modern amenities.",
+    "location": "789 Loft Avenue, Arts District",
+    "price": 2800,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area_sqft": 1500,
+    "type": "Loft",
+    "image": "https://img.freepik.com/free-photo/gray-sofa-white-living-room-with-copy-space_43614-909.jpg",
+    "features": ["Industrial Style", "Open Floor Plan", "Roof Deck", "Gym"],
+    "category": "rent"
+  },
+  {
+    "id": 15,
+    "title": "Seaside Cottage for Vacation",
+    "description": "A charming 1-bedroom cottage by the sea. Perfect for a relaxing vacation getaway.",
+    "location": "123 Beach Lane, Coastal Retreat",
+    "price": 1500,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area_sqft": 600,
+    "type": "Cottage",
+    "image": "https://img.freepik.com/free-photo/gray-sofa-white-living-room-with-copy-space_43614-909.jpg",
+    "features": ["Beachfront", "Patio", "BBQ Grill", "Ocean Views"],
+    "category": "rent"
+  },
+  {
+    "id": 16,
+    "title": "Spacious Lot for Sale",
+    "description": "A large plot of land perfect for building your dream home. Located in a peaceful neighborhood.",
+    "location": "789 Green Acres, Tranquil Meadows",
+    "price": 150000,
+    "area_sqft": 10000,
+    "type": "Land",
+    "image": "https://img.freepik.com/free-photo/gray-sofa-white-living-room-with-copy-space_43614-909.jpg",
+    "features": ["Large Lot", "Peaceful Location"],
+    "category": "buy"
+  },
+  {
+    "id": 17,
+    "title": "Commercial Space for Sale",
+    "description": "A prime commercial space in the bustling city center. Ideal for businesses and investors.",
+    "location": "456 Business Boulevard, Downtown",
+    "price": 800000,
+    "area_sqft": 5000,
+    "type": "Commercial",
+    "image": "https://img.freepik.com/free-photo/gray-sofa-white-living-room-with-copy-space_43614-909.jpg",
+    "features": ["City Center Location", "High Foot Traffic", "Parking"],
+    "category": "buy"
+  },
+  {
+    "id": 18,
+    "title": "Vacation Home for Marketing",
+    "description": "A beautiful vacation home available for short-term rentals. Great investment opportunity.",
+    "location": "123 Marketing Lane, Tourist Haven",
+    "price": 350000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area_sqft": 2000,
+    "type": "Vacation Home",
+    "image": "https://img.freepik.com/free-photo/gray-sofa-white-living-room-with-copy-space_43614-909.jpg",
+    "features": [
+      "Tourist-Friendly Location",
+      "Income Potential",
+      "Fully Furnished"
+    ],
+    "category": "marketing"
+  }
+]
