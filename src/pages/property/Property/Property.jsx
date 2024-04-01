@@ -3,10 +3,10 @@ import PropertyItems from "../PropertyItems/PropertyItems";
 
 const Property = () => {
   return (
-    <>
+    <div className="bg-[#f7f7f7]">
       <PropertyBanner />
       <PropertyItems />
-    </>
+    </div>
   );
 };
 

@@ -6,7 +6,7 @@ const PropertyGallery = () => {
 
   const heading = <span className="text_span">Properties by area</span>;
   return (
-    <section className="py-5 lg:py-10 container mx-auto px-5">
+    <section className="py-5 lg:py-20 container mx-auto px-5">
       <SectionTitle
         heading={heading}
         subHeading="Holisticly enhance team driven leadership skills via optimal human capital."
@@ -17,7 +17,7 @@ const PropertyGallery = () => {
           {data?.property.slice(0, 3)?.map((item) => (
             <div key={item.id}>
               <Link
-                to={`/property-details/${item.id}`}
+                to={`/property`}
                 className="w-full h-[238px] overlay relative card-image overflow-hidden"
               >
                 <div className="overflow-hidden">
@@ -45,7 +45,7 @@ const PropertyGallery = () => {
             return (
               <div key={item.id}>
                 <Link
-                  to={`/property-details/:${item?.id}`}
+                  to={`/property`}
                   className="w-full h-[250px] overlay relative card-image overflow-hidden"
                 >
                   <div className="overflow-hidden">

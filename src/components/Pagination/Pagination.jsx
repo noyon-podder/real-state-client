@@ -4,10 +4,14 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
       <nav>
         <ul className="pagination flex gap-x-6 ">
           <li
-            onClick={() => onPageChange(currentPage - 1)}
+            onClick={() => {
+              if (currentPage > 1) {
+                onPageChange(currentPage - 1);
+              }
+            }}
             className={`pagination-item ${
               currentPage === 1
-                ? "cursor-default px-2 py-1 bg-[#4A60A1] text-white rounded opacity-70"
+                ? "cursor-not-allowed px-2 py-1 bg-[#4A60A1] text-white rounded opacity-70"
                 : "px-2 py-1 bg-[#4A60A1] text-white rounded cursor-pointer"
             }`}
           >
@@ -27,10 +31,14 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
             </li>
           ))}
           <li
-            onClick={() => onPageChange(currentPage + 1)}
+            onClick={() => {
+              if (currentPage < totalPages) {
+                onPageChange(currentPage + 1);
+              }
+            }}
             className={`pagination-item ${
               currentPage === totalPages
-                ? "cursor-default px-2 py-1 bg-[#4A60A1] text-white rounded opacity-70"
+                ? "cursor-not-allowed px-2 py-1 bg-[#4A60A1] text-white rounded opacity-70"
                 : "px-2 py-1 bg-[#4A60A1] text-white rounded cursor-pointer"
             }`}
           >

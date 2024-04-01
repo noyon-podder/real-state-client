@@ -20,7 +20,7 @@ const Banner = () => {
 
   return (
     <div className="banner-image flex items-center px-20 justify-center">
-      <div className="container mx-auto py-10 lg:px-20 px-5">
+      <div className="container mx-auto lg:py-[120px]  py-10 lg:px-20 px-5">
         <div className="text-center w-full">
           <h3 className="capitalize text-white text-4xl lg:text-7xl font-bold text-center mb-4 lg:mb-8">
             Find your <span className="">dream</span> Home

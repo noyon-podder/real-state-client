@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import SectionTitle from "../../../components/SetionTitle/SectionTitle";
 
-import PropertyCard from "../../../components/PropertyCard/PropertyCard";
+import PropertyCard from "../../../components/PropertyCard/PropertyGridCard";
 import Button from "../../../components/Button/Button";
 
 const PropertyRent = () => {
