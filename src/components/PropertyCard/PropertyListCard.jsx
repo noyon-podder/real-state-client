@@ -7,7 +7,7 @@ const PropertyListCard = ({ item }) => {
     <div>
       <div className="flex max-w-full  overflow-hidden bg-white rounded-lg shadow-lg ">
         <div
-          className="w-[200px]  bg-cover"
+          className="w-1/4 lg:min-w-[300px]  bg-cover"
           style={{
             backgroundImage: `url(${item.image})`,
           }}

@@ -79,7 +79,7 @@ const PropertyCard = ({ item }) => {
         </div>
       </div>
 
-      <div className="px-4 py-6">
+      <div className="px-4 pt-2">
         <div>
           <Link
             to={`/property-details/:id`}
@@ -114,7 +114,7 @@ const PropertyCard = ({ item }) => {
           </p>
         </div>
 
-        <div className="flex justify-between mt-4 items-center">
+        <div className="flex justify-between border-t mt-4 pt-3 items-center">
           <div className="flex items-center gap-3">
             <img
               src="https://www.demoapus-wp1.com/homeo/wp-content/uploads/2020/02/5.jpg"

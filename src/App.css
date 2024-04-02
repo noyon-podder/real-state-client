@@ -33,7 +33,7 @@
 
 .css-t3ipsp-control {
   border-color: #4a60a134 !important;
-
+  border-width: 0px;
   box-shadow: 0 0 0 1px #4a60a1a9 !important;
 }
 
@@ -60,6 +60,21 @@
   line-height: 46px;
   text-transform: uppercase;
   letter-spacing: 4px;
+}
+
+.advanced-search .css-art2ul-ValueContainer2 {
+  padding: 5px 8px;
+  box-sizing: border-box;
+}
+.advanced-search .css-1u9des2-indicatorSeparator {
+  width: 0px;
+}
+.advanced-search .css-t3ipsp-control {
+  border-color: none !important;
+  box-shadow: none !important;
+}
+.css-13cymwt-control {
+  border-width: 0px !important;
 }
 
 @media only screen and (max-width: 768px) {
