@@ -1,5 +1,5 @@
 import { IoGridOutline, IoListSharp, IoClose } from "react-icons/io5";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import PropertyGridCard from "../../../components/PropertyCard/PropertyGridCard";
 import Pagination from "../../../components/Pagination/Pagination";
 import PropertyListCard from "../../../components/PropertyCard/PropertyListCard";
@@ -122,7 +122,7 @@ const PropertyItems = () => {
               <IoClose />
             </span>
             <div
-              className="fixed top-0 left-0 bg-black w-full h-full opacity-60"
+              className="fixed top-0 left-0 bg-black w-full h-full opacity-80"
               onClick={handleOutsideClick}
             ></div>
             <div className="fixed top-0 left-0 h-screen overflow-y-auto max-w-[400px] z-50 bg-white transition-transform duration-300">
