@@ -49,12 +49,12 @@ const PropertyCard = ({ item }) => {
           src={item.image}
           alt="Article"
         />
-        <div className="absolute bottom-5 right-5 flex items-center gap-3 z-50">
+        <div className="absolute bottom-5 right-5 flex items-center gap-3 z-10">
           <>
             <span
               className={`${
                 !isInWishlist ? "bg-black bg-opacity-40" : "bg-main"
-              } w-8 h-8 rounded-md  cursor-pointer flex items-center justify-center`}
+              } w-8 h-8 rounded-md  cursor-pointer flex items-center justify-center `}
               onClick={toggleWishlist}
             >
               {isInWishlist ? (
@@ -68,13 +68,13 @@ const PropertyCard = ({ item }) => {
             <IoGitCompareOutline size={20} color="#fff" />
           </span>
         </div>
-        <div className="absolute top-4 left-4 z-50">
+        <div className="absolute top-4 left-4 z-10">
           <span className="block px-3 rounded-sm py-[2px] bg-[#FF5A5F] text-white text-[12px] font-medium">
             For Sale
           </span>
         </div>
 
-        <div className="absolute bottom-5 left-5 z-50">
+        <div className="absolute bottom-5 left-5 z-10">
           <span className="text-[#fff]  font-bold">${item.price}</span>
         </div>
       </div>

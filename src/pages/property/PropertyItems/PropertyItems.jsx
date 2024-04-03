@@ -1,15 +1,18 @@
-import { IoGridOutline, IoListSharp } from "react-icons/io5";
-import { useEffect, useState } from "react";
+import { IoGridOutline, IoListSharp, IoClose } from "react-icons/io5";
+import { useEffect, useRef, useState } from "react";
 import PropertyGridCard from "../../../components/PropertyCard/PropertyGridCard";
 import Pagination from "../../../components/Pagination/Pagination";
 import PropertyListCard from "../../../components/PropertyCard/PropertyListCard";
 import AdvancedSearch from "../AdvancedSearch/AdvancedSearch";
+import MobileAdvancedSearch from "../MobileAdvancedSearch/MobileAdvancedSearch";
 
 const PropertyItems = () => {
+  const itemsPerPage = 9;
   const [items, setItems] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [gridToggle, setGridToggle] = useState("grid");
-  const itemsPerPage = 9;
+  const [mobileAdvancedSearchShow, setMobileAdvancedSearchShow] =
+    useState(false);
 
   // Calculate the start and end indexes for the current page
   const startIndex = (currentPage - 1) * itemsPerPage;
@@ -28,8 +31,23 @@ const PropertyItems = () => {
       .then((res) => res.json())
       .then((data) => setItems(data));
   }, []);
+
+  const mobileSearchTrue = () => {
+    setMobileAdvancedSearchShow(true);
+    document.body.classList.add("overflow-hidden");
+  };
+  const mobileSearchFalse = () => {
+    setMobileAdvancedSearchShow(false);
+    document.body.classList.remove("overflow-hidden");
+  };
+
+  const handleOutsideClick = () => {
+    setMobileAdvancedSearchShow(false);
+    document.body.classList.remove("overflow-hidden");
+  };
+
   return (
-    <div className="container mx-auto py-10">
+    <div className="container mx-auto md:py-10 py-5">
       {/* property item header part start */}
       <div className="flex items-center justify-between lg:pb-10 pb-5">
         <div>
@@ -82,6 +100,38 @@ const PropertyItems = () => {
         <div className="xl:col-span-3 lg:col-span-4 hidden lg:block">
           <AdvancedSearch />
         </div>
+      </div>
+
+      <div className="z-50 relative">
+        {/* mobile advanced search  start*/}
+        {mobileAdvancedSearchShow === false && (
+          <span
+            className="w-9 h-9 rounded-[4px] bg-main text-white cursor-pointer text-2xl flex items-center justify-center lg:hidden fixed top-[50%] -translate-y-[50%] right-0 z-30"
+            onClick={mobileSearchTrue}
+          >
+            <IoListSharp />
+          </span>
+        )}
+
+        {mobileAdvancedSearchShow && (
+          <div>
+            <span
+              className="w-9 h-9 rounded-s-[6px] bg-main text-white cursor-pointer text-2xl flex items-center justify-center lg:hidden fixed top-[50%] -translate-y-[50%] right-0 z-50"
+              onClick={mobileSearchFalse}
+            >
+              <IoClose />
+            </span>
+            <div
+              className="fixed top-0 left-0 bg-black w-full h-full opacity-60"
+              onClick={handleOutsideClick}
+            ></div>
+            <div className="fixed top-0 left-0 h-screen overflow-y-auto max-w-[400px] z-50 bg-white transition-transform duration-300">
+              <MobileAdvancedSearch />
+            </div>
+          </div>
+        )}
+
+        {/* mobile advanced search  end*/}
       </div>
 
       <div className={currentData?.length !== 0 ? "block" : "hidden"}>
